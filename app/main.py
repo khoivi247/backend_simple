@@ -16,7 +16,7 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     PORT: int = 3000
-    FRONTEND_URL: str = "http://localhost:5173"
+    FRONTEND_URL: str = "https://tonghopvideo.vercel.app/"
     VIDEO_DIR: str = "./videos"
     MAX_FILE_SIZE: int = 500 * 1024 * 1024  # 500MB
     
